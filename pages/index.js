@@ -14,6 +14,7 @@ import {
   Text,
   Container,
 } from "@chakra-ui/react";
+import logo from "../public/logo.png";
 
 const siteConfig = {
   repo: {
@@ -52,7 +53,7 @@ export default function Home() {
       <Container maxW="3xl" centerContent>
         <Head>
           <title>Hypeserver Talks</title>
-          <link rel="icon" href="/favicon.png" />
+          <link rel="icon" href={logo} />
         </Head>
         <chakra.header
           transition="box-shadow 0.2s"
@@ -72,7 +73,7 @@ export default function Home() {
               justify="space-between"
             >
               <Flex align="center">
-                <img src="/logo.png" width={80} alt="Hypeserver Logo" />
+                <img src={logo} width={80} alt="Hypeserver Logo" />
               </Flex>
 
               <Flex
