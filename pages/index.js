@@ -52,7 +52,7 @@ export default function Home() {
       <Container maxW="3xl" centerContent>
         <Head>
           <title>Hypeserver Talks</title>
-          <link rel="icon" href="/favicon.ico" />
+          <link rel="icon" href="/favicon.png" />
         </Head>
         <chakra.header
           transition="box-shadow 0.2s"
